@@ -1,0 +1,68 @@
+#pragma once
+
+enum SCENEID
+{
+	SCE_LOGO,
+	SCE_MENU,
+	SCE_STAGE,
+	SCE_END,
+
+};
+
+enum OBJID
+{
+	OBJ_PLAYER,
+	OBJ_MONSTER,
+	OBJ_EFFECT,
+	OBJ_END,
+};
+
+enum BULLETID
+{
+	BUL_PLAYER,
+	BUL_MONSTER,
+	BUL_END,
+};
+
+enum STATE
+{
+	진행,
+	삭제 = 10,
+	정리,
+	클리어,
+	비활성,
+	END,
+};
+
+enum SKILLID
+{
+	NORMAL,
+	SPREAD,
+	GUIDED,
+	SKL_A,
+	SKL_B,
+	SKL_C,
+	SKL_END,
+};
+
+enum OBJTYPE
+{
+	P_PLAYER,
+	M_MONSTER,
+	PBL_NORMAL,
+	PBL_GUIDE,
+	PBL_BOUNCE,
+	PBL_THRUST,
+	ABL_NORMAL,
+	ABL_THRUST,
+	ABL_REVERSE,
+	ABL_COPY,
+	ABL_BOUNCE,
+	TYPE_END,
+};
+
+enum BK_COLOR
+{
+	CL_BLACK,
+	CL_WHITE,
+};

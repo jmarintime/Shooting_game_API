@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Include">
+      <UniqueIdentifier>{6fede7fd-693b-4e41-809f-832b822eeec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\00. MainGame">
+      <UniqueIdentifier>{567c9091-9513-445b-a72c-ad6d6c084a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\01. Scene">
+      <UniqueIdentifier>{31ad6559-b58c-4c70-a3ca-13a1148123bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object">
+      <UniqueIdentifier>{9856cfd3-4e8c-4cba-b9c2-cf26c18f11c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03. Manager">
+      <UniqueIdentifier>{a974559a-a74d-4f23-a86f-414feb4bb225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04. Design">
+      <UniqueIdentifier>{25ed86da-6ca5-49c6-a4b2-93e3dcdf1f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\99. Default">
+      <UniqueIdentifier>{fbbff300-fdbc-4faa-916e-3dddabcc1fd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03. Manager\BitMap">
+      <UniqueIdentifier>{8dd5244a-036f-4c05-8a43-2895bbb66c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03. Manager\KeyMgr">
+      <UniqueIdentifier>{9070e044-b37b-411e-890f-a33d5d8e863e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03. Manager\Sound">
+      <UniqueIdentifier>{eabe5663-bd66-474b-81c8-26410f9d23d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03. Manager\SceneMgr">
+      <UniqueIdentifier>{9f1d2af1-fdaf-4461-b44f-e28951f1a7fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03. Manager\Mouse">
+      <UniqueIdentifier>{a0440e61-6a93-41c6-93de-fb5c8f35a53e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03. Manager\ObjectMgr">
+      <UniqueIdentifier>{9efc9232-8c25-472f-9d5c-fe0ea784b7a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\01. Scene\0. Logo">
+      <UniqueIdentifier>{7bf780a1-af5f-4e9d-a8d6-68ffb6529c28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\01. Scene\1. Menu">
+      <UniqueIdentifier>{70d5ffe0-3037-48f8-8f12-875890b21432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\01. Scene\2. Stage">
+      <UniqueIdentifier>{85a70f6d-2aa7-4106-860f-73ecbdafa55a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\0. Logo">
+      <UniqueIdentifier>{e13ab48e-0617-4602-8d7c-93e3301dba5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\1. Menu">
+      <UniqueIdentifier>{6df7f645-29e6-48b4-9f07-39678cff2ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\1. Menu\BackGround">
+      <UniqueIdentifier>{c3343a3c-b00a-4bda-adfa-5988d1d46407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\1. Menu\Button">
+      <UniqueIdentifier>{812ba7ca-40f5-4a43-8887-cc0fee4886c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage">
+      <UniqueIdentifier>{e246aa3f-c8b2-481f-98eb-5cffb52b1d03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\Bullet">
+      <UniqueIdentifier>{8eae7e0c-168f-448d-ae7f-e40fd9af08e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\Player">
+      <UniqueIdentifier>{c75a81ca-896c-4278-a83d-8f32ff2e32ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\Monster">
+      <UniqueIdentifier>{aa5e083d-2dff-478c-a971-c898afcb6d8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\BackGround">
+      <UniqueIdentifier>{318a70e1-5886-4c0e-afcd-755435aca5b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04. Design\Bridge">
+      <UniqueIdentifier>{bdab7110-d3e6-472d-ab59-33335f27af6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\Bullet\BulletBridge">
+      <UniqueIdentifier>{c451a83c-857f-493c-aa60-8c239b7e7d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\Monster\MonsterBridge">
+      <UniqueIdentifier>{cf1ed4fd-2797-4e5b-b53b-dde359994385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\Monster\MonsterBridge\Boss1">
+      <UniqueIdentifier>{2d1f117f-47af-42e3-99bd-5057c75ae3c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\Monster\MonsterBridge\Anm1">
+      <UniqueIdentifier>{532f85ae-af45-4b58-adae-8948e6b2e2d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\Monster\MonsterBridge\Anm2">
+      <UniqueIdentifier>{19104aca-9aec-4eee-87e9-470acb318685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03. Manager\MathMgr">
+      <UniqueIdentifier>{e5eef009-e355-4157-b5cd-343d85cab3d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03. Manager\Collision">
+      <UniqueIdentifier>{04c5072b-d065-4381-9b94-6a8d97a587d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\Bullet\BulletBridge\PlayerBullet">
+      <UniqueIdentifier>{d1b47e4d-7563-4f30-ae57-9228ebadd6c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\Bullet\BulletBridge\MonsterBullet">
+      <UniqueIdentifier>{54175874-3d04-4613-a8de-06c1214ba3ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\Bullet\BulletBridge\PlayerBullet\NormalBullet">
+      <UniqueIdentifier>{18cf6f77-f772-4fe4-a866-a401bf4a41cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\Bullet\BulletBridge\MonsterBullet\NormalBullet">
+      <UniqueIdentifier>{e4e28090-c6e3-430a-a0c5-fc73453742bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03. Manager\ObjectMgr\TimelineMgr">
+      <UniqueIdentifier>{3163478e-f768-485a-b924-8b8762e8b92a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\Monster\MonsterBridge\Wall">
+      <UniqueIdentifier>{ee09766b-33c3-433c-aef2-6bb505dc062d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\Monster\MonsterBridge\Wormhole">
+      <UniqueIdentifier>{77508d78-b496-4998-8414-0542317032b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\Bullet\BulletBridge\Default">
+      <UniqueIdentifier>{8b3c7af1-e9f4-44e7-9ab7-013a06db1b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\Bullet\BulletBridge\Default\BounceBullet">
+      <UniqueIdentifier>{cac5c5b9-c44d-42ac-a6a3-07f35f3eefe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\Bullet\BulletBridge\Default\ReverseBullet">
+      <UniqueIdentifier>{f74ab8d8-3c78-4105-a285-137960009d37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\Bullet\BulletBridge\Default\ThrustBullet">
+      <UniqueIdentifier>{938a0a37-6296-49c3-ae08-e30b075efb0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\Bullet\BulletBridge\Default\GuideBullet">
+      <UniqueIdentifier>{faae1041-06e4-484f-9aa0-00687624bff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\Effect">
+      <UniqueIdentifier>{a72125f0-faed-465c-bc05-bc24e41d9ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\Effect\Effect_Bridge">
+      <UniqueIdentifier>{a768a380-8b45-4f54-a014-afe51bd17552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\Effect\Effect_Bridge\MagicHole">
+      <UniqueIdentifier>{fe615fc7-8e4a-458b-9541-9478cd2a6f98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\Effect\Effect_Bridge\Explosion">
+      <UniqueIdentifier>{2540a76c-220a-42f7-93a8-bd155bf35cdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\BackGround\Clear">
+      <UniqueIdentifier>{f7af8427-8791-490d-acdb-345af922db56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\2. Stage\BackGround\GameOver">
+      <UniqueIdentifier>{6988a0db-6c11-4888-a04f-83bc02005122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Object\1. Menu\Title">
+      <UniqueIdentifier>{f4260922-2d15-48eb-b188-cab60478ae37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Source Files\99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Shooter.h">
+      <Filter>Source Files\99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files\99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Source Files\99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Value.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="BitMap.h">
+      <Filter>Source Files\03. Manager\BitMap</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>Source Files\00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>Source Files\03. Manager\ObjectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>Source Files\03. Manager\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>Source Files\03. Manager\SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObj.h">
+      <Filter>Source Files\01. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>Source Files\01. Scene\0. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMenu.h">
+      <Filter>Source Files\01. Scene\1. Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>Source Files\02. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>Source Files\02. Object\1. Menu\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjFactory.h">
+      <Filter>Source Files\04. Design</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>Source Files\02. Object\1. Menu\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>Source Files\03. Manager\KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Source Files\03. Manager\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Source Files\01. Scene\2. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="StageBack.h">
+      <Filter>Source Files\02. Object\2. Stage\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files\02. Object\2. Stage\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Source Files\02. Object\2. Stage\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Bridge.h">
+      <Filter>Source Files\04. Design\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Source Files\02. Object\2. Stage\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster_Bridge.h">
+      <Filter>Source Files\02. Object\2. Stage\Monster\MonsterBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet_Bridge.h">
+      <Filter>Source Files\02. Object\2. Stage\Bullet\BulletBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalBullet.h">
+      <Filter>Source Files\02. Object\2. Stage\Bullet\BulletBridge\PlayerBullet\NormalBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="MathMgr.h">
+      <Filter>Source Files\03. Manager\MathMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CollMgr.h">
+      <Filter>Source Files\03. Manager\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Anm1.h">
+      <Filter>Source Files\02. Object\2. Stage\Monster\MonsterBridge\Anm1</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalBulletA.h">
+      <Filter>Source Files\02. Object\2. Stage\Bullet\BulletBridge\MonsterBullet\NormalBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeLine.h">
+      <Filter>Source Files\03. Manager\ObjectMgr\TimelineMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Anm2.h">
+      <Filter>Source Files\02. Object\2. Stage\Monster\MonsterBridge\Anm2</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss1.h">
+      <Filter>Source Files\02. Object\2. Stage\Monster\MonsterBridge\Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="ThrustBulletA.h">
+      <Filter>Source Files\02. Object\2. Stage\Bullet\BulletBridge\Default\ThrustBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="ReverseBullet.h">
+      <Filter>Source Files\02. Object\2. Stage\Bullet\BulletBridge\Default\ReverseBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="MonWall.h">
+      <Filter>Source Files\02. Object\2. Stage\Monster\MonsterBridge\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="WormHole.h">
+      <Filter>Source Files\02. Object\2. Stage\Monster\MonsterBridge\Wormhole</Filter>
+    </ClInclude>
+    <ClInclude Include="BounceBullet.h">
+      <Filter>Source Files\02. Object\2. Stage\Bullet\BulletBridge\Default\BounceBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="GuideBullet.h">
+      <Filter>Source Files\02. Object\2. Stage\Bullet\BulletBridge\Default\GuideBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicHole.h">
+      <Filter>Source Files\02. Object\2. Stage\Effect\Effect_Bridge\MagicHole</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Source Files\02. Object\2. Stage\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect_Bridge.h">
+      <Filter>Source Files\02. Object\2. Stage\Effect\Effect_Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>Source Files\02. Object\2. Stage\Effect\Effect_Bridge\Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="Clear.h">
+      <Filter>Source Files\02. Object\2. Stage\BackGround\Clear</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>Source Files\02. Object\2. Stage\BackGround\GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>Source Files\02. Object\1. Menu\Title</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Shooter.cpp">
+      <Filter>Source Files\99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="BitMap.cpp">
+      <Filter>Source Files\03. Manager\BitMap</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>Source Files\00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>Source Files\03. Manager\ObjectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>Source Files\03. Manager\SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>Source Files\03. Manager\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObj.cpp">
+      <Filter>Source Files\01. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>Source Files\01. Scene\0. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMenu.cpp">
+      <Filter>Source Files\01. Scene\1. Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>Source Files\02. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>Source Files\02. Object\1. Menu\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>Source Files\02. Object\1. Menu\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>Source Files\03. Manager\KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source Files\03. Manager\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Source Files\01. Scene\2. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="StageBack.cpp">
+      <Filter>Source Files\02. Object\2. Stage\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\02. Object\2. Stage\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Source Files\02. Object\2. Stage\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Bridge.cpp">
+      <Filter>Source Files\04. Design\Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\02. Object\2. Stage\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster_Bridge.cpp">
+      <Filter>Source Files\02. Object\2. Stage\Monster\MonsterBridge</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet_Bridge.cpp">
+      <Filter>Source Files\02. Object\2. Stage\Bullet\BulletBridge</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalBullet.cpp">
+      <Filter>Source Files\02. Object\2. Stage\Bullet\BulletBridge\PlayerBullet\NormalBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="MathMgr.cpp">
+      <Filter>Source Files\03. Manager\MathMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CollMgr.cpp">
+      <Filter>Source Files\03. Manager\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Anm1.cpp">
+      <Filter>Source Files\02. Object\2. Stage\Monster\MonsterBridge\Anm1</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalBulletA.cpp">
+      <Filter>Source Files\02. Object\2. Stage\Bullet\BulletBridge\MonsterBullet\NormalBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeLine.cpp">
+      <Filter>Source Files\03. Manager\ObjectMgr\TimelineMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Anm2.cpp">
+      <Filter>Source Files\02. Object\2. Stage\Monster\MonsterBridge\Anm2</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss1.cpp">
+      <Filter>Source Files\02. Object\2. Stage\Monster\MonsterBridge\Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="ThrustBulletA.cpp">
+      <Filter>Source Files\02. Object\2. Stage\Bullet\BulletBridge\Default\ThrustBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseBullet.cpp">
+      <Filter>Source Files\02. Object\2. Stage\Bullet\BulletBridge\Default\ReverseBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="MonWall.cpp">
+      <Filter>Source Files\02. Object\2. Stage\Monster\MonsterBridge\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="WormHole.cpp">
+      <Filter>Source Files\02. Object\2. Stage\Monster\MonsterBridge\Wormhole</Filter>
+    </ClCompile>
+    <ClCompile Include="BounceBullet.cpp">
+      <Filter>Source Files\02. Object\2. Stage\Bullet\BulletBridge\Default\BounceBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="GuideBullet.cpp">
+      <Filter>Source Files\02. Object\2. Stage\Bullet\BulletBridge\Default\GuideBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicHole.cpp">
+      <Filter>Source Files\02. Object\2. Stage\Effect\Effect_Bridge\MagicHole</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Source Files\02. Object\2. Stage\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect_Bridge.cpp">
+      <Filter>Source Files\02. Object\2. Stage\Effect\Effect_Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Source Files\02. Object\2. Stage\Effect\Effect_Bridge\Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="Clear.cpp">
+      <Filter>Source Files\02. Object\2. Stage\BackGround\Clear</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>Source Files\02. Object\2. Stage\BackGround\GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>Source Files\02. Object\1. Menu\Title</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Shooter.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Shooter.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Texture\Stage\Monster\Enemies.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Texture\Stage\Bullet\Bullet.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Texture\BackBufferWhite.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Texture\Stage\Player\charic1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Texture\Stage\Player\charic2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Texture\Stage\Player\charic3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Texture\Stage\Monster\Boss.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Texture\Stage\Monster\Boss1" />
+  </ItemGroup>
+</Project>
