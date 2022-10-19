@@ -6,7 +6,6 @@ enum SCENEID
 	SCE_MENU,
 	SCE_STAGE,
 	SCE_END,
-
 };
 
 enum OBJID

@@ -4,20 +4,20 @@
   BackGround.cpp
   BitMap.cpp
   Boss1.cpp
-D:\Project\Shooting_game_API\Shooter\Boss1.cpp(336,41): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\Project\Shooting_game_API\Shooter\Boss1.cpp(344,31): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\Project\Shooting_game_API\Shooter\Boss1.cpp(530,27): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\Project\Shooting_game_API\Shooter\Boss1.cpp(531,30): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Priavte_Project\Shooting_game_API\Shooter\Boss1.cpp(336,41): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Priavte_Project\Shooting_game_API\Shooter\Boss1.cpp(344,31): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Priavte_Project\Shooting_game_API\Shooter\Boss1.cpp(530,27): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Priavte_Project\Shooting_game_API\Shooter\Boss1.cpp(531,30): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   BounceBullet.cpp
-D:\Project\Shooting_game_API\Shooter\BounceBullet.cpp(43,32): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\Project\Shooting_game_API\Shooter\BounceBullet.cpp(91,40): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Priavte_Project\Shooting_game_API\Shooter\BounceBullet.cpp(43,32): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Priavte_Project\Shooting_game_API\Shooter\BounceBullet.cpp(91,40): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   Bridge.cpp
-D:\Project\Shooting_game_API\Shooter\Bridge.cpp(51,22): warning C4244: '-=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\Project\Shooting_game_API\Shooter\Bridge.cpp(52,22): warning C4244: '-=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\Project\Shooting_game_API\Shooter\Bridge.cpp(55,49): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\Project\Shooting_game_API\Shooter\Bridge.cpp(56,51): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\Project\Shooting_game_API\Shooter\Bridge.cpp(58,23): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\Project\Shooting_game_API\Shooter\Bridge.cpp(59,23): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Priavte_Project\Shooting_game_API\Shooter\Bridge.cpp(51,22): warning C4244: '-=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Priavte_Project\Shooting_game_API\Shooter\Bridge.cpp(52,22): warning C4244: '-=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Priavte_Project\Shooting_game_API\Shooter\Bridge.cpp(55,49): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Priavte_Project\Shooting_game_API\Shooter\Bridge.cpp(56,51): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Priavte_Project\Shooting_game_API\Shooter\Bridge.cpp(58,23): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Priavte_Project\Shooting_game_API\Shooter\Bridge.cpp(59,23): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   Bullet.cpp
   Bullet_Bridge.cpp
   Clear.cpp
@@ -31,44 +31,44 @@ D:\Project\Shooting_game_API\Shooter\Bridge.cpp(59,23): warning C4244: '=': 'flo
   KeyMgr.cpp
   Logo.cpp
   MagicHole.cpp
-D:\Project\Shooting_game_API\Shooter\MagicHole.cpp(49,40): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Priavte_Project\Shooting_game_API\Shooter\MagicHole.cpp(49,40): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   코드를 생성하고 있습니다...
   컴파일하고 있습니다...
   MainGame.cpp
   MathMgr.cpp
+  MonWall.cpp
+C:\Priavte_Project\Shooting_game_API\Shooter\MonWall.cpp(49,67): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   Monster.cpp
   Monster_Bridge.cpp
-  MonWall.cpp
-D:\Project\Shooting_game_API\Shooter\MonWall.cpp(49,67): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   Mouse.cpp
   MyButton.cpp
-D:\Project\Shooting_game_API\Shooter\MyButton.cpp(56,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\Project\Shooting_game_API\Shooter\MyButton.cpp(56,10): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Priavte_Project\Shooting_game_API\Shooter\MyButton.cpp(56,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Priavte_Project\Shooting_game_API\Shooter\MyButton.cpp(56,10): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   MyMenu.cpp
   NormalBullet.cpp
   NormalBulletA.cpp
-D:\Project\Shooting_game_API\Shooter\NormalBulletA.cpp(27,27): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Priavte_Project\Shooting_game_API\Shooter\NormalBulletA.cpp(27,27): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   Obj.cpp
-D:\Project\Shooting_game_API\Shooter\Obj.cpp(24,16): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\Project\Shooting_game_API\Shooter\Obj.cpp(25,16): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Priavte_Project\Shooting_game_API\Shooter\Obj.cpp(24,16): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Priavte_Project\Shooting_game_API\Shooter\Obj.cpp(25,16): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   ObjMgr.cpp
   Player.cpp
   ReverseBullet.cpp
-D:\Project\Shooting_game_API\Shooter\ReverseBullet.cpp(25,27): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Priavte_Project\Shooting_game_API\Shooter\ReverseBullet.cpp(25,27): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   SceneMgr.cpp
   SceneObj.cpp
   Shooter.cpp
   Stage.cpp
   StageBack.cpp
   ThrustBulletA.cpp
-D:\Project\Shooting_game_API\Shooter\ThrustBulletA.cpp(35,28): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Priavte_Project\Shooting_game_API\Shooter\ThrustBulletA.cpp(35,28): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   코드를 생성하고 있습니다...
   컴파일하고 있습니다...
   TimeLine.cpp
   Title.cpp
-D:\Project\Shooting_game_API\Shooter\Title.cpp(36,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\Project\Shooting_game_API\Shooter\Title.cpp(36,16): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Priavte_Project\Shooting_game_API\Shooter\Title.cpp(36,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Priavte_Project\Shooting_game_API\Shooter\Title.cpp(36,16): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   WormHole.cpp
-D:\Project\Shooting_game_API\Shooter\WormHole.cpp(70,40): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Priavte_Project\Shooting_game_API\Shooter\WormHole.cpp(70,40): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   코드를 생성하고 있습니다...
-  Shooter.vcxproj -> D:\Project\Shooting_game_API\x64\Debug\Shooter.exe
+  Shooter.vcxproj -> C:\Priavte_Project\Shooting_game_API\x64\Debug\Shooter.exe
